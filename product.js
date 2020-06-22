@@ -3,7 +3,7 @@ var router = express.Router();
 var publicDir = require("path").join(__dirname,'/public');
 router.use(express.static(publicDir));
 var MongoClient = require('mongodb').MongoClient;
-var url = "mongodb+srv://hoalamoa:hoalatao@cluster0-0dgyl.azure.mongodb.net/test";
+var url = "mongodb+srv://kool2406:0961688824Kool@cluster0-y4ose.mongodb.net/test";
 
 
 
