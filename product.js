@@ -62,7 +62,7 @@ router.post('/doUpdate', async(req,res)=>{
     //let dateValues = Date.now();
     let today = new Date();
     let date =today.getHours()+':'+today.getMinutes()+':'+today.getSeconds()+'--'+ today.getDate()+'-'+(today.getMonth()+1)+'-'+ today.getFullYear();
-    let newValues ={$set : {name : nameValue,  price: priceValue, color : colorValue, datetime : date}};
+    let newValues ={$set : {name : nameValue,  price: priceValue, color : colorValue, time : date}};
     var ObjectID = require('mongodb').ObjectID;
     let condition = {"_id" : ObjectID(id)};
     
